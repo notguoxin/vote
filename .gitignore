@@ -2,3 +2,5 @@
 ./.idea/*
 ./other/*
 ./venv/*
+./lib/data/*
+./vote.html
