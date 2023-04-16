@@ -1,0 +1,18 @@
+body,p,li,ol{
+  font-family:monospace;
+  font-size: 15px;
+  background-color: #121212;
+  color: white;
+}
+
+.votes_normal{
+  color: yellowgreen;
+}
+
+.votes_danger {
+  color: red;
+}
+
+#countdown{
+  display: inline;
+}

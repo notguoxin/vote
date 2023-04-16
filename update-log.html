@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>更新日志</title>
+    <style>
+        * {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1>1.0#C9PQV9</h1>
+        <ul>
+            <li>增加了 UID(独特身份证明系统)</li>
+        </ul>
+    </div>
+
+
+<hr>
+<p id="UID"></p>
+</body>
+
+<script>
+    function genIDK() {
+        const length = 6
+        let result = '';
+        const characters = 'abcdefhijkpqrstuvwx0123456789';
+        const charactersLength = characters.length;
+
+        for (let i = 0; i < length; i++) {
+            result += characters.charAt(Math.floor(Math.random() * charactersLength));
+        }
+
+        return result.toUpperCase();
+    }
+</script>
+
+</html>
